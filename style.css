@@ -1,19 +1,6 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-@media only screen and (max-width: 375px) {
-  body {
-    max-width: 375px;
-    background-color: hsl(212, 45%, 89%);
-    font-family: "Outfit", sans-serif;
-    font-weight: 400; 
-  }
-
-  .content {
-    background-color: hsl(0, 0%, 100%);
-  }
-}
-
 @media only screen and (min-width: 376px) {
   body {
     margin: auto;

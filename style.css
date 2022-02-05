@@ -1,6 +1,15 @@
 html {
   box-sizing: border-box;
 }
+/* 
+- I do not need to use media queries if the flexbox is used
+- flexbox is the easiest way for positioning of the elements
+- rem, vh, vw should be easier to use instead of pixels and makes the things responsive more easier, too
+- height on body was changed to min-height with 100vh so it can grow 
+- width on card was changed to max-width and rem were used
+- wodth of the image was changed to max-width because the max-width on the card will stopi it if needed
+- height was removed on the card completely because it will be dictated automatically by the browser
+*/
 
 *, ::after, ::before {
   box-sizing: inherit;
@@ -11,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-weight: 400;
@@ -22,7 +31,6 @@ body {
   display: flex;
   text-align: center;
   flex-shrink: 1;
-  height: 60vh;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
 }
@@ -32,14 +40,14 @@ body {
   flex-direction: column;
   align-items: center;
   flex-shrink: 1;
-  width: 18vw;
+  max-width: 17rem;
   padding-top: 10px;
 }
 
 .container-content img {
   flex-shrink: 1;
   border-radius: 1rem;
-  width: 16vw;
+  max-width: 90%;
 }
 
 .container-content .container-header {
@@ -56,5 +64,5 @@ body {
   font-size: 0.8rem;
   font-weight: 200;
   margin: 0;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
 }

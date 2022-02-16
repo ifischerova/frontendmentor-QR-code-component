@@ -53,7 +53,7 @@ I really need to better understand and especially practise how to achieve respon
 - [Vzhuru dolu](https://www.vzhurudolu.cz) - This great Czech source helped me with the orientation in the different attitudes to the responsive layout. It is a great and really reliable source for understanding the the whole process of creating websites.
 They also focus on the news in this field and provide really great workshops and learnings. 
 - [Can I use](https://www.caniuse.com) - If you need to check if some property is supported in the browser and how much.
-- [PX to REM comnverter](https://nekocalc.com/px-to-rem-converter) 
+- [PX to REM converter](https://nekocalc.com/px-to-rem-converter) 
 
 ## Author
 - Frontend Mentor - [@Iva](https://www.frontendmentor.io/profile/Ivuska)
